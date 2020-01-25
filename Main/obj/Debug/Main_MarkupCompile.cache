@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Users\WyomingCPA\source\repos\Dashboard1PrismTemplate\Main\obj\Debug\
+C:\Users\WyomingCPA\source\repos\FavebookBusinessBot\Main\obj\Debug\
 Main
 none
 false
 DEBUG;TRACE
 
-2-1002810522
+8-942809404
 
-61389863597
-221981185466
-Resource\MainRes.xaml;Views\ViewA.xaml;
+241865499448
+25-1422251681
+Dialog\DialogCreatePageSelect.xaml;Resource\MainRes.xaml;Views\AccountManager.xaml;Views\AdvCompany.xaml;Views\Bot.xaml;Views\PageManager.xaml;Views\Settings.xaml;Views\ViewA.xaml;
 
 False
 

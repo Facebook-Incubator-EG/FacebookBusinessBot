@@ -47,7 +47,7 @@
           "lib/De.TorstenMandelkow.MetroChart.dll": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -59,11 +59,11 @@
           "lib/net45/Prism.dll": {}
         }
       },
-      "Prism.Wpf/7.2.0.1367": {
+      "Prism.Wpf/7.2.0.1422": {
         "type": "package",
         "dependencies": {
           "CommonServiceLocator": "2.0.4",
-          "Prism.Core": "7.2.0.1367"
+          "Prism.Core": "7.2.0.1422"
         },
         "frameworkAssemblies": [
           "System.Configuration"
@@ -75,6 +75,30 @@
         "runtime": {
           "lib/net45/Prism.Wpf.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Selenium.Firefox.WebDriver/0.26.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/78.0.3904.10500": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
       "System.ValueTuple/4.5.0": {
@@ -136,7 +160,7 @@
           "lib/De.TorstenMandelkow.MetroChart.dll": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -148,11 +172,11 @@
           "lib/net45/Prism.dll": {}
         }
       },
-      "Prism.Wpf/7.2.0.1367": {
+      "Prism.Wpf/7.2.0.1422": {
         "type": "package",
         "dependencies": {
           "CommonServiceLocator": "2.0.4",
-          "Prism.Core": "7.2.0.1367"
+          "Prism.Core": "7.2.0.1422"
         },
         "frameworkAssemblies": [
           "System.Configuration"
@@ -164,6 +188,30 @@
         "runtime": {
           "lib/net45/Prism.Wpf.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Selenium.Firefox.WebDriver/0.26.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/78.0.3904.10500": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
       "System.ValueTuple/4.5.0": {
@@ -225,7 +273,7 @@
           "lib/De.TorstenMandelkow.MetroChart.dll": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -237,11 +285,11 @@
           "lib/net45/Prism.dll": {}
         }
       },
-      "Prism.Wpf/7.2.0.1367": {
+      "Prism.Wpf/7.2.0.1422": {
         "type": "package",
         "dependencies": {
           "CommonServiceLocator": "2.0.4",
-          "Prism.Core": "7.2.0.1367"
+          "Prism.Core": "7.2.0.1422"
         },
         "frameworkAssemblies": [
           "System.Configuration"
@@ -253,6 +301,30 @@
         "runtime": {
           "lib/net45/Prism.Wpf.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Selenium.Firefox.WebDriver/0.26.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/78.0.3904.10500": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
       "System.ValueTuple/4.5.0": {
@@ -314,7 +386,7 @@
           "lib/De.TorstenMandelkow.MetroChart.dll": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -326,11 +398,11 @@
           "lib/net45/Prism.dll": {}
         }
       },
-      "Prism.Wpf/7.2.0.1367": {
+      "Prism.Wpf/7.2.0.1422": {
         "type": "package",
         "dependencies": {
           "CommonServiceLocator": "2.0.4",
-          "Prism.Core": "7.2.0.1367"
+          "Prism.Core": "7.2.0.1422"
         },
         "frameworkAssemblies": [
           "System.Configuration"
@@ -342,6 +414,30 @@
         "runtime": {
           "lib/net45/Prism.Wpf.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Selenium.Firefox.WebDriver/0.26.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/78.0.3904.10500": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
       "System.ValueTuple/4.5.0": {
@@ -568,10 +664,10 @@
         "modernuicharts.wpf.beta.nuspec"
       ]
     },
-    "Prism.Core/7.2.0.1367": {
-      "sha512": "vrz2M/Hr9ItcAUvnT+n76ak6qPQMgJfyTYFSKqphveb9ibohm70vzc0cWu1jkeBY5XPS9RbUluXMa9WQGM0kPw==",
+    "Prism.Core/7.2.0.1422": {
+      "sha512": "U6tZ4Iq+ELyK5PedRC6E20caZXXTmTYiw5evpv0M3WcfKgih9H5G5LDBlDl+65eC5Vb4lnOaUCAtckdEl2MRxA==",
       "type": "package",
-      "path": "prism.core/7.2.0.1367",
+      "path": "prism.core/7.2.0.1422",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -584,14 +680,14 @@
         "lib/netstandard2.0/Prism.dll",
         "lib/netstandard2.0/Prism.pdb",
         "lib/netstandard2.0/Prism.xml",
-        "prism.core.7.2.0.1367.nupkg.sha512",
+        "prism.core.7.2.0.1422.nupkg.sha512",
         "prism.core.nuspec"
       ]
     },
-    "Prism.Wpf/7.2.0.1367": {
-      "sha512": "jr7qlHqXSg3k5c7pGrsJMAoXO/MZCPUVtWmAp0klfmHThrdGSMeHvG0QmchYv4zKLoPg+xDHBswuUe/umYp/dg==",
+    "Prism.Wpf/7.2.0.1422": {
+      "sha512": "njl3uLjqDXeWCbAItgDkZsWIqVnRyhknoMMXZSQdO9jKoIgb+qB/X47YT5KchCNLxLtDq3saQMf5mSZ/LQLqiQ==",
       "type": "package",
-      "path": "prism.wpf/7.2.0.1367",
+      "path": "prism.wpf/7.2.0.1422",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -603,8 +699,55 @@
         "lib/netcoreapp3.0/Prism.Wpf.pdb",
         "lib/netcoreapp3.0/Prism.Wpf.xml",
         "lib/netcoreapp3.0/System.Windows.Interactivity.dll",
-        "prism.wpf.7.2.0.1367.nupkg.sha512",
+        "prism.wpf.7.2.0.1422.nupkg.sha512",
         "prism.wpf.nuspec"
+      ]
+    },
+    "Selenium.Firefox.WebDriver/0.26.0": {
+      "sha512": "l0N+Vw4/Y1kq/BX5JnRbgFSVkNC89EH3Vg/T1KlchO9MTOgGVdn2JGqNJWXZ7recxWu7WolCvUBPmzqnMQlSaQ==",
+      "type": "package",
+      "path": "selenium.firefox.webdriver/0.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Firefox.WebDriver.targets",
+        "driver/geckodriver.exe",
+        "selenium.firefox.webdriver.0.26.0.nupkg.sha512",
+        "selenium.firefox.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "sha512": "wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
+      "type": "package",
+      "path": "selenium.webdriver/3.141.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "selenium.webdriver.3.141.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/78.0.3904.10500": {
+      "sha512": "1olFsJvAIkxb21CV9z2TVQFITOo4PkVKoV+xvEsyLsGbBn8HWm57DEn/124icDgh85ANMZgglg0GXDEsGhgckg==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/78.0.3904.10500",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "selenium.webdriver.chromedriver.78.0.3904.10500.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
       ]
     },
     "System.ValueTuple/4.5.0": {
@@ -657,7 +800,10 @@
       "MaterialDesignColors >= 1.2.0",
       "MaterialDesignThemes >= 2.6.0",
       "ModernUICharts.WPF.Beta >= 0.9.1",
-      "Prism.Wpf >= 7.2.0.1367"
+      "Prism.Wpf >= 7.2.0.1422",
+      "Selenium.Firefox.WebDriver >= 0.26.0",
+      "Selenium.WebDriver >= 3.141.0",
+      "Selenium.WebDriver.ChromeDriver >= 78.0.3904.10500"
     ]
   },
   "packageFolders": {
@@ -667,11 +813,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WyomingCPA\\source\\repos\\Dashboard1PrismTemplate\\Main\\Main.csproj",
+      "projectUniqueName": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "C:\\Users\\WyomingCPA\\source\\repos\\Dashboard1PrismTemplate\\Main\\Main.csproj",
+      "projectPath": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj",
       "packagesPath": "C:\\Users\\WyomingCPA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WyomingCPA\\source\\repos\\Dashboard1PrismTemplate\\Main\\obj\\",
+      "outputPath": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -712,7 +858,19 @@
           },
           "Prism.Wpf": {
             "target": "Package",
-            "version": "[7.2.0.1367, )"
+            "version": "[7.2.0.1422, )"
+          },
+          "Selenium.Firefox.WebDriver": {
+            "target": "Package",
+            "version": "[0.26.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[3.141.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[78.0.3904.10500, )"
           }
         }
       }

@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\FavebookBusinessBot\\FavebookBusinessBot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\FavebookBusinessBot\\FavebookBusinessBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\FavebookBusinessBot\\FavebookBusinessBot.csproj",
+        "projectName": "FavebookBusinessBot",
+        "projectPath": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\FavebookBusinessBot\\FavebookBusinessBot.csproj",
+        "packagesPath": "C:\\Users\\WyomingCPA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\FavebookBusinessBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\WyomingCPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj": {
+                "projectPath": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "ModernUICharts.WPF.Beta": {
+              "target": "Package",
+              "version": "[0.9.1, )"
+            },
+            "Prism.DryIoc": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.26.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[78.0.3904.10500, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj",
+        "projectName": "Main",
+        "projectPath": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj",
+        "packagesPath": "C:\\Users\\WyomingCPA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\WyomingCPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "ModernUICharts.WPF.Beta": {
+              "target": "Package",
+              "version": "[0.9.1, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.26.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[78.0.3904.10500, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

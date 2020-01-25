@@ -1,0 +1,126 @@
+﻿<UserControl x:Class="Main.Views.PageManager"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Main.ViewModels"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+             xmlns:MetroChart="clr-namespace:De.TorstenMandelkow.MetroChart;assembly=De.TorstenMandelkow.MetroChart"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1024" 
+             xmlns:prism="http://prismlibrary.com/"           
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <ScrollViewer>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <materialDesign:Card Grid.Column="0" Padding="20" Margin="16">
+                        <StackPanel Orientation="Vertical">
+                            <TextBox materialDesign:HintAssist.Hint="Page Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Path=pageForm.PageName, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"  Width="474" HorizontalAlignment="Left"/>
+                            <TextBox materialDesign:HintAssist.Hint="Page Category" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Path=pageForm.PageCategory, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" Width="474" HorizontalAlignment="Left"/>
+                            <TextBox materialDesign:HintAssist.Hint="Улица" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Path=pageForm.PageStreet, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" Width="474" HorizontalAlignment="Left"/>
+                            <TextBox materialDesign:HintAssist.Hint="Город" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Path=pageForm.PageCity, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" Width="474" HorizontalAlignment="Left"/>
+                            <TextBox materialDesign:HintAssist.Hint="Индекс" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Path=pageForm.PageIndex, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" Width="474" HorizontalAlignment="Left"/>
+                            <TextBox materialDesign:HintAssist.Hint="Телефон" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Path=pageForm.PagePhone, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" Width="474" HorizontalAlignment="Left"/>
+                            <Button Command="{Binding AddPageCommand}" Content="Add Page" HorizontalAlignment="Right" Width="130" Margin="0 10 0 0"/>
+                        </StackPanel>
+                    </materialDesign:Card>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <ListView ItemsSource="{Binding Source={x:Static local:PageManagerViewModel.viewPages}}" x:Name="ListView">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Name" Width="200" >
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Path=PageName}">
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Category" Width="200" >
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Path=PageCategory}">
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="City" Width="150" >
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Path=PageCity}">
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Street" Width="150" >
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Path=PageStreet}">
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Index" Width="150" >
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Path=PageIndex}">
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Phone" Width="150" >
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Path=PagePhone}">
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Edit" Width="150" >
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <Button Content="Edit" Command="{Binding ElementName=ListView, Path=DataContext.EditCommand}" CommandParameter="{Binding}"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Delete" Width="150" >
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <Button Content="Delete" Command="{Binding ElementName=ListView, Path=DataContext.DeleteCommand}" CommandParameter="{Binding}"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

@@ -11,12 +11,17 @@ namespace Main
         public void OnInitialized(IContainerProvider containerProvider)
         {
             var regionManager = containerProvider.Resolve<IRegionManager>();
-            regionManager.RegisterViewWithRegion("ContentRegion", typeof(ViewA));
+            regionManager.RegisterViewWithRegion("ContentRegion", typeof(AccountManager));
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            containerRegistry.RegisterForNavigation<Bot>();
+            containerRegistry.RegisterForNavigation<AccountManager>();
+            containerRegistry.RegisterForNavigation<Settings>();
+            containerRegistry.RegisterForNavigation<AdvCompany>();
+            containerRegistry.RegisterForNavigation<PageManager>();
+            containerRegistry.RegisterForNavigation<ViewA>();
         }
     }
 }

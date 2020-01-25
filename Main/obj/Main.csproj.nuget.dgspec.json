@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WyomingCPA\\source\\repos\\Dashboard1PrismTemplate\\Main\\Main.csproj": {}
+    "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WyomingCPA\\source\\repos\\Dashboard1PrismTemplate\\Main\\Main.csproj": {
+    "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WyomingCPA\\source\\repos\\Dashboard1PrismTemplate\\Main\\Main.csproj",
+        "projectUniqueName": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj",
         "projectName": "Main",
-        "projectPath": "C:\\Users\\WyomingCPA\\source\\repos\\Dashboard1PrismTemplate\\Main\\Main.csproj",
+        "projectPath": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\Main.csproj",
         "packagesPath": "C:\\Users\\WyomingCPA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WyomingCPA\\source\\repos\\Dashboard1PrismTemplate\\Main\\obj\\",
+        "outputPath": "C:\\Users\\WyomingCPA\\source\\repos\\FavebookBusinessBot\\Main\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -52,7 +52,19 @@
             },
             "Prism.Wpf": {
               "target": "Package",
-              "version": "[7.2.0.1367, )"
+              "version": "[7.2.0.1422, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.26.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[78.0.3904.10500, )"
             }
           }
         }
